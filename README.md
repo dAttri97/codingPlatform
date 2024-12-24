@@ -30,10 +30,10 @@ These are just suggestions, the signatures can be altered as long as the functio
 
 * Fetch the list of problems - fetchProblems() - Should take as input filtering and sorting criterias and return all matching problems in the right order.
 
-The result should contain problem attributes like name, tag, difficulty level, score etc.
-#### Should also display number of users who have solved a problem and the average time taken for that problem
+** The result should contain problem attributes like name, tag, difficulty level, score etc.
+** Should also display number of users who have solved a problem and the average time taken for that problem
  * Solve a problem - solve() - Exposed to a contestant to mark a problem as solved
-####[ For the extension problem, this function should return next 5 recommended problems ]
+** For the extension problem, this function should return next 5 recommended problems
 
 * Fetch solved problems for a user - fetchSolvedProblems() - Fetch the list of solved problems for a user
 * Get leader - getLeader() - Returns the name and department of the leader
